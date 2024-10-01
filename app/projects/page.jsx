@@ -15,7 +15,7 @@ function Projects() {
                     <Image src={planetPal} alt='PlanetPal image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
                 </div>
                 <div>
-                    <Link href='/projects/planetpal' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2'>Click to Learn More</Link>
+                    <Link href='/projects/planetpal' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
                 </div>
             </div>
             
@@ -25,7 +25,7 @@ function Projects() {
                     <Image src={stroom} alt='Stroom image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
                 </div>
                 <div>
-                    <Link href='/projects/stroom' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2'>Click to Learn More</Link>
+                    <Link href='/projects/stroom' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ function Projects() {
                     <Image src={menti} alt='Menti image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
                 </div>
                 <div>
-                    <Link href='/projects/menti' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2'>Click to Learn More</Link>
+                    <Link href='/projects/menti' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ function Projects() {
                     <Image src={moreProjects} alt='PlanetPal image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
                 </div>
                 <div>
-                    <Link href='/' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2'>Click to Learn More</Link>
+                    <Link href='/' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
                 </div>
             </div>
         </div>
