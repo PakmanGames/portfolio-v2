@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div>Skills page</div>
+        <div className="text-center text-5xl flex flex-grow items-center justify-center">Skills page is WORK IN PROGRESS</div>
     );
 }
 
