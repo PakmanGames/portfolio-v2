@@ -1,0 +1,12 @@
+.mobileButton {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .regularNavbar {
+        display: none;
+    }
+    .mobileButton {
+        display: flex;
+    }
+}
