@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer";
 import Head from 'next/head';
 import { JetBrains_Mono } from 'next/font/google';
@@ -10,11 +10,6 @@ const jetbrains = JetBrains_Mono({
   weight: ['800'],
 })
 
-export const metadata = {
-  title: 'Andy Pak',
-  description: `Andy Pak's Personal Portfolio`,
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -23,11 +18,11 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={jetbrains.className}>
         <div className="flex flex-col min-h-screen">
-          <Navbar></Navbar>
+          <Navbar/>
           <div className="flex flex-grow">
             {children}
           </div>
-          <Footer></Footer>
+          <Footer/>
         </div>
       </body>
     </html>
