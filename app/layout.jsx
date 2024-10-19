@@ -10,6 +10,11 @@ const jetbrains = JetBrains_Mono({
   weight: ['800'],
 })
 
+export const metadata = {
+  title: 'Andy Pak',
+  description: `Andy Pak's Personal Portfolio`,
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
