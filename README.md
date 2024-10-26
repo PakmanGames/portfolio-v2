@@ -21,4 +21,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Learn More
 
-This project is currently deployed using Vercel at [https://pakmangames.vercel.app/](https://pakmangames.vercel.app/)
+This project is currently deployed using Vercel at [https://andypak.me/](hhttps://andypak.me/)
