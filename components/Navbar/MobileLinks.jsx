@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from './Navbar.module.css';
 import { usePathname } from 'next/navigation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function MobileLinks({ routes, navbar, setNavbar }) {
     const currentRoute = usePathname();

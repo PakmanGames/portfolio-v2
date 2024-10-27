@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from './Navbar.module.css';
 import { usePathname } from "next/navigation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function RegularLinks({ routes }) {
     const currentRoute = usePathname();
@@ -16,7 +17,8 @@ function RegularLinks({ routes }) {
                     className={`p-3 rounded-2xl hover:bg-gray-100 hover:text-black ${currentRoute === route.path ? 'bg-gray-400 text-black' : 'text-white'} transition duration-500 ease-in-out hover:transition hover:duration-500 hover:ease-in-out text-xl text-center`} 
                     href={route.path} key={route.title}
                 >
-                    {route.title}
+                    <FontAwesomeIcon icon={route.icon} />
+                    {` `+route.title}
                 </Link>
             ))}
         </div>
