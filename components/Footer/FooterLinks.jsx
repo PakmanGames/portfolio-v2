@@ -10,21 +10,21 @@ function FooterLinks() {
             imageSource: Mail,
             href: "mailto:im.andy.pak@gmail.com",
             altText: "Send Mail",
-            opacity: "50",
+            opacity: "opacity-50",
             size: "w-7 w-7",
         },
         {
             imageSource: LinkedIn,
             href: "https://www.linkedin.com/in/andy-pak/",
             altText: "Linkedin Link",
-            opacity: "80",
+            opacity: "opacity-80",
             size: "w-7 w-7",
         },
         {
             imageSource: GitHub,
             href: "https://github.com/pakmangames",
             altText: "GitHub Link",
-            opacity: "60",
+            opacity: "opacity-60",
             size: "w-8 w-8",
         },
     ]
@@ -33,7 +33,7 @@ function FooterLinks() {
         <div id="links" className="flex items-center gap-4 py-4">
             {links.map((link) => (
                 <div key={link.altText}>
-                    <Link href={link.href} target="_blank" className={`filter grayscale opacity-${link.opacity} hover:opacity-100 transition duration-500 ease-in-out`}>
+                    <Link href={link.href} target="_blank" className={`filter grayscale ${link.opacity} hover:opacity-100 transition duration-500 ease-in-out hover:transition hover:duration-500 hover:ease-in-out`}>
                         <Image src={link.imageSource} alt={link.altText} className={link.size}></Image>
                     </Link>
                 </div>
