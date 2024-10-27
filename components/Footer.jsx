@@ -16,17 +16,17 @@ function Footer() {
                 </div>
                 <div id="links" className="flex items-center gap-4 py-4">
                     <div>
-                        <a href="mailto:im.andy.pak@gmail.com" target="_blank" rel='noopener' className='filter grayscale opacity-50 hover:opacity-100 transition duration-900 ease-in-out'>
+                        <a href="mailto:im.andy.pak@gmail.com" target="_blank" rel='noopener' className='filter grayscale opacity-50 hover:opacity-100 transition duration-500 ease-in-out'>
                             <Image src={Mail} alt='Send Email' className='w-7 h-7'></Image>
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/andy-pak/" target="_blank" className='filter grayscale opacity-80 hover:opacity-100 transition duration-900 ease-in-out'>
+                        <a href="https://www.linkedin.com/in/andy-pak/" target="_blank" className='filter grayscale opacity-80 hover:opacity-100 transition duration-500 ease-in-out'>
                             <Image src={LinkedIn} alt='LinkedIn link' className='w-7 h-7'></Image>
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/pakmangames" target="_blank" className='filter grayscale opacity-60 hover:opacity-100 transition duration-900 ease-in-out'>
+                        <a href="https://github.com/pakmangames" target="_blank" className='filter grayscale opacity-60 hover:opacity-100 transition duration-500 ease-in-out'>
                             <Image src={GitHub} alt='GitHub' className='w-8 h-8'></Image>
                         </a>
                     </div>
