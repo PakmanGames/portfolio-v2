@@ -36,7 +36,7 @@ function FooterLinks() {
     ]
 
     return (
-        <div id="links" className="flex items-center gap-4 py-4">
+        <div id="links" className="flex items-center gap-4 py-4 px-8">
             {links.map((link) => (
                 <div key={link.altText}>
                     <Link href={link.href} target="_blank" className={`filter grayscale ${link.opacity} text-3xl hover:opacity-100 transition duration-500 ease-in-out hover:transition hover:duration-500 hover:ease-in-out`}>

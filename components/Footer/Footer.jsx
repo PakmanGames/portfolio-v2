@@ -3,7 +3,7 @@ import FooterLinks from "./FooterLinks";
 
 function Footer() {
     return (
-        <footer className="flex justify-evenly text-center text-sm md:text-md">
+        <footer className="flex justify-evenly items-center text-center text-sm md:text-md">
             <FooterCopyRight />
             <FooterLinks />
         </footer>
