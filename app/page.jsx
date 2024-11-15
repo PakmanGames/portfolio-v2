@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import gradPhoto from "@/public/images/grad-photo-1.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
 function Page() {
   return (
@@ -19,15 +22,14 @@ function Page() {
               <div>{`Hey! I'm Andy, a software engineering student. I am an aspiring full-stack developer passionate about web development.`}</div>
               <div>{`My interests are in digital solutions, challenges, hackathons, computers, and opportunities.`}</div>
             </div>
-            <div className="text-base">
-              Feel free to <Link href={`https://www.linkedin.com/in/andy-pak/`} target="_blank" className="font-bold text-blue-500 hover:text-blue-400 transition-all ease-in-out">connect</Link> with me!
+            <div className="text-base flex gap-2 items-center justify-center">
+              <FontAwesomeIcon icon={faLinkedin} className="text-blue-500 text-lg" />
+              <div>Feel free to <Link href={`https://www.linkedin.com/in/andy-pak/`} target="_blank" className="font-bold text-blue-500 hover:text-blue-400 transition-all ease-in-out">connect</Link> with me!</div>
             </div>
-          </div>
-          <div className="max-w-80 flex flex-col gap-5">
-            <p className="font-extrabold text-xl"><strong>Skills:</strong></p>
-            <p className="text-left"><strong>Languages:</strong> JavaScript, HTML, CSS, Java, Python, Ruby, C, Bash, Verilog, LaTeX</p>
-            <p className="text-left"><strong>Frameworks:</strong> React, Next.js, Tailwind CSS, Bootstrap</p>
-            <p className="text-left"><strong>Technologies: </strong> Git, GitHub, Apache Maven, Linux, MongoDB, Node.js, Arduino</p>
+            <div className="text-base flex gap-2 items-center justify-center">
+              <FontAwesomeIcon icon={faLaptopCode} className="text-black text-lg" />
+              <div>Curious about my <Link href={`/skills`} className="font-bold text-blue-500 hover:text-blue-400 transition-all ease-in-out">tech-stack</Link>?</div>
+            </div>
           </div>
         </div>
       </div>
