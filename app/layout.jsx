@@ -11,6 +11,7 @@ import './globals.css';
 const jetbrains = JetBrains_Mono({
   subsets: ['latin'],
   weight: ['800'],
+  display: 'swap',
 })
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className={jetbrains.className}>
