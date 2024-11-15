@@ -8,7 +8,7 @@ function MobileLinks({ routes, navbar, setNavbar }) {
     const currentRoute = usePathname();
 
     return (
-        <div>
+        <div className="z-20">
             <button 
                 onClick={() => setNavbar(prevNavbar => !prevNavbar)}
                 className={`${styles.mobileButton} text-white p-2 focus:outline-none hover:bg-gray-500 rounded-lg transition duration-600 ease-in-out`}
