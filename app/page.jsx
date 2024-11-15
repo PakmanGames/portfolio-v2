@@ -10,14 +10,14 @@ function Page() {
           <Image src={gradPhoto} alt="Picture of Andy Pak" className="w-72 h-auto rounded-lg"></Image>
         </div>
         <div className="text-center flex flex-col gap-11 items-center justify-center">
-          <div className="text-7xl">
+          <div className="text-4xl md:text-7xl">
             <p className="bg-gradient-to-r from-blue-900 to-purple-600 text-transparent bg-clip-text transition-all duration-500 motion-safe:hover:scale-105">Andy Pak</p>
           </div>
-          <div id="bio" className="text-xl max-w-xl flex flex-col gap-3">
+          <div id="bio" className="text-lg md:text-xl max-w-xl flex flex-col gap-3">
             <strong>Software Engineer at McMaster University</strong>
-            <div className="text-base lg:px-20 text-left">
-              {`Hey! I'm Andy, a software engineering student. I am an aspiring full-stack developer passionate about web development.
-              My interests are in digital solutions, challenges, hackathons, computers, and opportunities.`}
+            <div className="text-sm md:text-base lg:px-20 text-left flex flex-col gap-3">
+              <div>{`Hey! I'm Andy, a software engineering student. I am an aspiring full-stack developer passionate about web development.`}</div>
+              <div>{`My interests are in digital solutions, challenges, hackathons, computers, and opportunities.`}</div>
             </div>
             <div className="text-base">
               Feel free to <Link href={`https://www.linkedin.com/in/andy-pak/`} target="_blank" className="font-bold text-blue-500 hover:text-blue-400 transition-all ease-in-out">connect</Link> with me!
