@@ -7,12 +7,12 @@ function Skills() {
                 <div>JavaScript, HTML, CSS, Java, Python, Ruby, C, Bash, Verilog</div>
             </div>
             <div className="max-w-xl flex flex-col gap-10">
-                <p>I'm an aspiring full-stack web developer, I am familiar with both frontend and backend. I am currently trying to learn more backend frameworks such as Flask and Ruby on Rails.</p>
+                <p>I{`'`}m an aspiring full-stack web developer, I am familiar with both frontend and backend. I am currently trying to learn more backend frameworks such as Flask and Ruby on Rails.</p>
                 <div>Frameworks</div>
                 <div>React, Next.js, Tailwind CSS, Express.js, Bootstrap</div>
             </div>
             <div className="max-w-xl flex flex-col gap-10">
-                <p>I've been really enjoying using Linux and WSL for development. I am eager to learn cloud services such as AWS, Azure, and GCP.</p>
+                <p>I{`'`}ve been really enjoying using Linux and WSL for development. I am eager to learn cloud services such as AWS, Azure, and GCP.</p>
                 <div>Technologies</div>
                 <div>Git, GitHub, Apache Maven, Linux, MongoDB, Node.js, Arduino</div>
             </div>
