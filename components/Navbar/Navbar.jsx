@@ -32,7 +32,7 @@ function Navbar() {
     ]
 
     return (
-        <div className='bg-black flex justify-between items-center px-5 py-4 h-24'>
+        <div className='bg-black flex justify-between items-center px-5 py-4 h-24 z-50'>
             <Navlogo setNavbar={setNavbar}/>
 
             <MobileLinks routes={routes} navbar={navbar} setNavbar={setNavbar}/>
