@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import gradPhoto from "@/public/images/grad-photo-1.png";
-import Particle from "@/components/Particle/Particle";
 import TypingEffect from "@/components/TypingEffect/TypingEffect";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +16,6 @@ function Page() {
 
   return (
     <div className="flex flex-grow justify-center items-center">
-      <Particle />
       <div className="flex justify-center items-center flex-wrap border-solid rounded-2xl border-8 border-blue-900 p-11 gap-10 m-10 bg-slate-100 z-20">
         <div className="border-solid rounded-2xl border-8 border-black shadow-2xl transform transition-all duration-500 motion-safe:hover:scale-105">
           <Image src={gradPhoto} alt="Picture of Andy Pak" className="w-72 h-auto rounded-lg"></Image>

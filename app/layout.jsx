@@ -3,6 +3,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Particle from '@/components/Particle/Particle';
 import Head from 'next/head';
 import { JetBrains_Mono } from 'next/font/google';
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={jetbrains.className}>
         <div className="flex flex-col min-h-screen">
+          <Particle />
           <Navbar/>
           <div className="flex flex-grow">
             {children}
