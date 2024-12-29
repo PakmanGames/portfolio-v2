@@ -11,7 +11,7 @@ function Page() {
     "Software Engineer",
     "Full-Stack Web Developer",
     "Hackathon Enthusiast",
-    "Continuous Learner",
+    "Perpetual Learner",
   ]
 
   return (
@@ -25,7 +25,7 @@ function Page() {
             <p className="bg-gradient-to-r from-blue-900 to-purple-600 text-transparent bg-clip-text transition-all duration-500 motion-safe:hover:scale-105">Andy Pak</p>
           </div>
           <div id="bio" className="text-lg md:text-xl max-w-xl flex flex-col gap-3">
-            <strong className="text-3xl text-center">
+            <strong className="text-lg md:text-3xl text-center">
               <TypingEffect words={titles} />
             </strong>
             <div className="text-sm md:text-base lg:px-20 text-left flex flex-col gap-3">
