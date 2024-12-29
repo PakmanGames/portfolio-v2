@@ -25,6 +25,11 @@ function Navbar() {
             icon: faFileCode,
         },
         {
+            title: 'Resume',
+            path: '/resume',
+            icon: faFileCode,
+        },
+        {
             title: 'Contact',
             path: '/contact',
             icon: faPhone,
