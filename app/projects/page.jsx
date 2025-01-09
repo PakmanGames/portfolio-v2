@@ -1,58 +1,26 @@
-import Image from 'next/image';
-import Link from 'next/link';
-
-import moreProjects from '@/public/images/moreprojects.png';
-import planetPal from '@/public/images/planetpal.jpg';
-import stroom from '@/public/images/stroom.jpg';
-import menti from '@/public/images/menti.jpg';
+import ProjectCard from '@/components/ProjectCard';
+import { projects } from '@/data/projects';
 
 function Projects() {
-    return (
-        <div className="flex flex-grow flex-wrap justify-center items-center gap-10 m-5">
-            <div className='flex flex-col justify-center items-center gap-7 border-solid border-8 border-blue-950 rounded-2xl p-5 text-center bg-slate-100'>
-                <div className='text-3xl'>PlanetPal</div>
-                <div>
-                    <Image src={planetPal} alt='PlanetPal image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
-                </div>
-                <div>
-                    <Link href='https://devpost.com/software/planetpal-thq27l' target='_blank' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
-                </div>
-            </div>
-            
-            <div className='flex flex-col justify-center items-center gap-7 border-solid border-8 border-blue-950 rounded-2xl p-5 text-center bg-slate-100'>
-                <div className='text-3xl'>Stroom</div>
-                <div>
-                    <Image src={stroom} alt='Stroom image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
-                </div>
-                <div>
-                    <Link href='https://devpost.com/software/stroom-rjk8im' target='_blank' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
-                </div>
-            </div>
-
-            <div className='flex flex-col justify-center items-center gap-7 border-solid border-8 border-blue-950 rounded-2xl p-5 text-center bg-slate-100'>
-                <div>
-                    <div className='text-3xl'>Menti</div>
-                    <dir>WINNER at Serenity Hacks 2024</dir>
-                </div>
-                <div>
-                    <Image src={menti} alt='Menti image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
-                </div>
-                <div>
-                    <Link href='https://devpost.com/software/menti-g3k5jp' target='_blank' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
-                </div>
-            </div>
-
-            <div className='flex flex-col justify-center items-center gap-7 border-solid border-8 border-blue-950 rounded-2xl p-5 text-center bg-slate-100'>
-                <div className='text-3xl'>MORE PROJECTS TO BE ADDED</div>
-                <div>
-                    <Image src={moreProjects} alt='PlanetPal image cover' className='w-xl md:w-2xl h-auto border-solid rounded-2xl border-8 border-black'></Image>
-                </div>
-                <div>
-                    <Link href='/' className='border-solid border-4 border-black text-white bg-blue-300 rounded-xl p-2 hover:bg-blue-500 hover:shadow-xl transition duration-600 ease-in-out'>Click to Learn More</Link>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold mb-8 text-center">{`PakmanGames' Projects`}</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projects.reverse().map((project) => (
+          <div 
+            className="z-10"
+            key={project.id}>
+              <ProjectCard
+                title={project.title}
+                image={project.image}
+                description={project.description}
+                learnMore={project.learnMore}
+              />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
 
-export default Projects
+export default Projects;
