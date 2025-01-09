@@ -3,7 +3,7 @@ export const projects = [
         id: 1,
         title: "PlanetPal",
         image: "/images/planetpal.jpg",
-        description: "Eco-friendly companion app that helps users reduce their carbon footprint. Created at TerraHacks 2024.",
+        description: "Eco-friendly companion app that helps users reduce their carbon footprint.",
         learnMore: "https://devpost.com/software/planetpal-thq27l"
     },
     {
