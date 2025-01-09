@@ -1,15 +1,22 @@
 'use client';
-import { useState, useEffect } from 'react'
-import { Button } from "@/components/ui/button"
-import { Loader2, Download } from 'lucide-react'
+import { useState, useEffect } from 'react';
+import { Button } from "@/components/ui/button";
+import { Loader2, Download } from 'lucide-react';
+import { useMediaQuery } from 'react-responsive';
 
 function PDFViewer({ pdfUrl, title }) {
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true);
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const [showFallback, setShowFallback] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1000)
     return () => clearTimeout(timer);
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    setShowFallback(isMobile);
+  }, [isMobile]);
 
   return (
     <div className="w-full max-w-4xl mx-auto p-4 space-y-4">
@@ -22,7 +29,18 @@ function PDFViewer({ pdfUrl, title }) {
           <span>Download PDF</span>
         </Button>
       </div>
-      <div className="relative w-full" style={{ paddingTop: '141.4%' }}>
+      {showFallback ? (
+        <div className="w-full text-center">
+          <p className="mb-4">PDF preview is not available on this device.</p>
+          <Button 
+            onClick={() => window.open(pdfUrl, '_blank')}
+            className="flex items-center space-x-2 mx-auto">
+            <Download size={20} />
+            <span>Open PDF</span>
+          </Button>
+        </div>
+      ) : (
+        <div className="relative w-full" style={{ paddingTop: '141.4%' }}>
         {isLoading && (
           <div
             className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-800">
@@ -37,6 +55,7 @@ function PDFViewer({ pdfUrl, title }) {
           }`}
           onLoad={() => setIsLoading(false)} />
       </div>
+      )}
     </div>
   );
 }
