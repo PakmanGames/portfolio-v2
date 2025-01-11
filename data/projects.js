@@ -109,7 +109,7 @@ export const projects = [
         id: 16,
         title: "Not The New York Times",
         image: "/images/notthenewyorktimes.png",
-        description: "🏆 Winner at HackWestern 11. Delivering fake news like never before in a satirical and witty way",
+        description: "🏆 Winner at HackWestern 11. Delivering fake news like never before in a satirical and witty way.",
         learnMore: "https://dorahacks.io/buidl/20398"
     },
 ]
