@@ -42,7 +42,7 @@ function Page() {
             </div>
             <div className="text-base flex gap-2 items-center justify-center">
               <FontAwesomeIcon icon={faTrophy} className="text-yellow-500 text-lg" />
-              <div>{`I'm a 3x Hackathon Winner`}</div>
+              <div>{`I'm a 4x Hackathon Winner`}</div>
             </div>
             <div className="text-base flex gap-2 items-center justify-center">Check out some of my <Link href={`https://github.com/PakmanGames`} target="_blank" className="font-bold text-blue-500 hover:text-blue-400 transition-all ease-in-out">projects</Link>!</div>
           </div>
