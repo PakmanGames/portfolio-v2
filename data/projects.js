@@ -112,4 +112,25 @@ export const projects = [
         description: "🏆 Winner at HackWestern 11. Delivering fake news like never before in a satirical and witty way.",
         learnMore: "https://dorahacks.io/buidl/20398"
     },
+    {
+        id: 17,
+        title: "National Bidders of Canada",
+        image: "/images/nationalbidderscanada.png",
+        description: "Connect with millions globally on our live auction platform. Empowering sellers and buyers to tap into a thriving market valued at nearly $20 billion, enabling growth, and success anytime, anywhere.",
+        learnMore: "https://devpost.com/software/national-bidders-of-canada"
+    },
+    {
+        id: 18,
+        title: "Git Tissues",
+        image: "/images/gittissues.png",
+        description: "Delegating tasks is a pain. Dont cry, Git Tissues helps you with this issue. Using your team's Github usernames, we can find the best collaborators for each task. Stop searching, start coding!",
+        learnMore: "https://devpost.com/software/git-tissues"
+    },
+    {
+        id: 19,
+        title: "RBveal",
+        image: "/images/rbvealcover.png",
+        description: "🏆 1st Place Winner for RBC’s sponsor prize, earning winnings of $1000 out of 130+ teams at UofTHacks 12. A phishing simulator, leading students to the RBC website where an AI scam call tries to trick them into transferring money.",
+        learnMore: "https://dorahacks.io/buidl/21687"
+    },
 ]
