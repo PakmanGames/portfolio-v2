@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HoloCard from "@/components/HoloCard/HoloCard";
 
 function Skills() {
     return (
@@ -6,12 +7,14 @@ function Skills() {
             <div className="w-full max-w-4xl flex flex-col gap-10">
                 <div className="text-center text-3xl">Languages</div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 z-10">
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/javascript-original.svg" alt="JavaScript" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">JavaScript</span>
-                    </div>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/javascript-original.svg" alt="JavaScript" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">JavaScript</span>
+                        </div>
+                    </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">
                             <Image src="/skills/typescript-original.svg" alt="TypeScript" width={24} height={24} />
