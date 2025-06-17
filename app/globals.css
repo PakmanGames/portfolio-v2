@@ -94,6 +94,12 @@
     margin: 0;
     padding: 0;
   }
+  .bg-theme-black    { background-color: hsl(var(--color-theme-black)); }
+  .bg-theme-navy     { background-color: hsl(var(--color-theme-navy)); }
+  .bg-theme-purple   { background-color: hsl(var(--color-theme-purple)); }
+  .bg-theme-light-purple   { background-color: hsl(var(--color-theme-light-purple)); }
+  .bg-theme-cyan  { background-color: hsl(var(--color-theme-cyan)); }
+  .bg-theme-not-white  { background-color: hsl(var(--color-theme-not-white)); } 
 }
 
 @layer base {
@@ -123,6 +129,13 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    /* New custom theme colors */
+    --color-theme-black: 0 0% 7%; /* #121212 */
+    --color-theme-navy: 220 30% 18%; /* #1a2233 */
+    --color-theme-purple: 265 40% 30%; /* #3a245c */
+    --color-theme-cyan: 213 100% 73%; /* cyan/blue accent */
+    --color-theme-light-purple: 280 56% 60%; /* magenta accent */
+    --color-theme-not-white: 250 100% 97%; /* not white accent */
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -149,6 +162,13 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    /* New custom theme colors */
+    --color-theme-black: 0 0% 7%; /* #121212 */
+    --color-theme-navy: 220 30% 18%; /* #1a2233 */
+    --color-theme-purple: 265 40% 30%; /* #3a245c */
+    --color-theme-cyan: 213 100% 73%; /* cyan/blue accent */
+    --color-theme-light-purple: 280 56% 60%; /* magenta accent */
+    --color-theme-not-white: 250 100% 97%; /* not white accent */
   }
 }
 
