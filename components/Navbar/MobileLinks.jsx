@@ -11,7 +11,7 @@ function MobileLinks({ routes, navbar, setNavbar }) {
         <div className="z-20">
             <button 
                 onClick={() => setNavbar(prevNavbar => !prevNavbar)}
-                className={`${styles.mobileButton} text-white p-2 focus:outline-none hover:bg-gray-500 rounded-lg transition duration-600 ease-in-out`}
+                className={`${styles.mobileButton} text-white p-2 focus:outline-hidden hover:bg-gray-500 rounded-lg transition duration-600 ease-in-out`}
             >
                 {navbar ? '✖' : '☰'}
             </button>

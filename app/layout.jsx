@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         <div className="flex flex-col min-h-screen">
           <Particle />
           <Navbar/>
-          <div className="flex flex-grow">
+          <div className="flex grow">
             {children}
           </div>
           <Footer/>
