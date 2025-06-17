@@ -1,57 +1,133 @@
+import Image from "next/image";
+
 function Skills() {
     return (
-        <div className="flex-1 flex flex-col items-center px-4 pt-12 pb-6">
+        <div className="flex-1 flex flex-col items-center px-4 pt-12 pb-6 gap-10">
             <div className="w-full max-w-4xl flex flex-col gap-10">
                 <div className="text-center text-3xl">Languages</div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2">
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
-                        <span className="text-2xl">🟨</span>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 z-10">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">
+                            <Image src="/skills/javascript-original.svg" alt="JavaScript" width={24} height={24} />
+                        </span>
                         <span className="text-lg">JavaScript</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">
+                            <Image src="/skills/typescript-original.svg" alt="TypeScript" width={24} height={24} />
+                        </span>
+                        <span className="text-lg">TypeScript</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">🌐</span>
                         <span className="text-lg">HTML</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">🎨</span>
                         <span className="text-lg">CSS</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">☕️</span>
                         <span className="text-lg">Java</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">🐍</span>
                         <span className="text-lg">Python</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">💎</span>
                         <span className="text-lg">Ruby</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">🌊</span>
                         <span className="text-lg">C</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">💻</span>
                         <span className="text-lg">Bash</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-4 py-3">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">🔌</span>
                         <span className="text-lg">Verilog</span>
                     </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🔌</span>
+                        <span className="text-lg">SQL</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🔌</span>
+                        <span className="text-lg">MATLAB</span>
+                    </div>
                 </div>
-                <p>I am knowledgeable in many different languages and comfortable developing in them. But my go to language has to be either JavaScript or Ruby.</p>
+                {/* <p>I am knowledgeable in many different languages and comfortable developing in them. But my go to language has to be either JavaScript or Ruby.</p> */}
             </div>
-            <div className="max-w-xl flex flex-col gap-10">
+            <div className="max-w-4xl flex flex-col gap-10">
                 <div className="text-center text-3xl">Frameworks</div>
-                <div className="text-center text-xl">React, Next.js, Tailwind CSS, Express.js, Bootstrap</div>
-                <p>I{`'`}m an aspiring full-stack web developer, I am familiar with both frontend and backend. I am currently trying to learn more backend frameworks such as Flask and Ruby on Rails.</p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-2 z-10">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">⚛️</span>
+                        <span className="text-lg">React</span>  
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">⏭️</span>
+                        <span className="text-lg">Next.js</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">💨</span>
+                        <span className="text-lg">Tailwind CSS</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🚂</span>
+                        <span className="text-lg">Express.js</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🅱️</span>
+                        <span className="text-lg">Bootstrap</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🌱</span>
+                        <span className="text-lg">Spring Boot</span>
+                    </div>
+                </div>
+                {/* <p>I{`'`}m an aspiring full-stack web developer, I am familiar with both frontend and backend. I am currently trying to learn more backend frameworks such as Flask and Ruby on Rails.</p> */}
             </div>
-            <div className="max-w-xl flex flex-col gap-10">
+            <div className="w-full max-w-4xl flex flex-col gap-10">
                 <div className="text-center text-3xl">Technologies</div>
-                <div className="text-center text-xl">Git, GitHub, Apache Maven, Linux, MongoDB, Node.js, Arduino</div>
-                <p>I{`'`}ve been really enjoying using Linux and WSL for development. I am eager to learn cloud services such as AWS, Azure, and GCP.</p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 z-10">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🌳</span>
+                        <span className="text-lg">Git</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🐙</span>
+                        <span className="text-lg">GitHub</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">☕️</span>
+                        <span className="text-lg">Apache Maven</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🐧</span>
+                        <span className="text-lg">Linux</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🍃</span>
+                        <span className="text-lg">MongoDB</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🟩</span>
+                        <span className="text-lg">Node.js</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🛢️</span>
+                        <span className="text-lg">MySQL</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <span className="text-2xl">🐘</span>
+                        <span className="text-lg">PostgreSQL</span>
+                    </div>
+                </div>
+                {/* <p>I{'`'}ve been really enjoying using Linux and WSL for development. I am eager to learn cloud services such as AWS, Azure, and GCP.</p> */}
             </div>
             <div>
                 Experimenting with new theme colours:
