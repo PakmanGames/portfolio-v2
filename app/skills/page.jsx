@@ -8,7 +8,7 @@ function Skills() {
                 <div className="text-center text-3xl">Languages</div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 z-10">
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/javascript-original.svg" alt="JavaScript" width={24} height={24} />
                             </span>
@@ -40,7 +40,7 @@ function Skills() {
                         <span className="text-lg">Java</span>
                     </div>
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/python-original.svg" alt="Python" width={24} height={24} />
                             </span>
@@ -90,7 +90,7 @@ function Skills() {
                 <div className="text-center text-3xl">Frameworks</div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-2 z-10">
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/react-original.svg" alt="React" width={24} height={24} />
                             </span>
@@ -98,7 +98,7 @@ function Skills() {
                         </div>
                     </HoloCard>
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/nextjs-original.svg" alt="Next.js" width={24} height={24} />
                             </span>
@@ -136,7 +136,7 @@ function Skills() {
                 <div className="text-center text-3xl">Technologies</div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 z-10">
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/git-original.svg" alt="Git" width={24} height={24} />
                             </span>
@@ -144,7 +144,7 @@ function Skills() {
                         </div>
                     </HoloCard>
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/github-original.svg" alt="GitHub" width={24} height={24} />
                             </span>
@@ -170,7 +170,7 @@ function Skills() {
                         <span className="text-lg">MongoDB</span>
                     </div>
                     <HoloCard>
-                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                        <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-3 min-w-[100px]">
                             <span className="text-2xl">
                                 <Image src="/skills/nodejs-original-wordmark.svg" alt="Node.js" width={24} height={24} />
                             </span>
@@ -191,17 +191,6 @@ function Skills() {
                     </div>
                 </div>
                 {/* <p>I{'`'}ve been really enjoying using Linux and WSL for development. I am eager to learn cloud services such as AWS, Azure, and GCP.</p> */}
-            </div>
-            <div>
-                Experimenting with new theme colours:
-                <div>
-                    <div className="bg-theme-black text-white p-2 rounded">Theme Black</div>
-                    <div className="bg-theme-navy text-white p-2 rounded">Theme Navy</div>
-                    <div className="bg-theme-purple text-white p-2 rounded">Theme Purple</div>
-                    <div className="bg-theme-light-purple text-white p-2 rounded">Theme Accent</div>
-                    <div className="bg-theme-cyan text-white p-2 rounded">Theme Accent 2</div>
-                    <div className="bg-theme-not-white text-black p-2 rounded">Theme Accent 3</div>
-                </div>
             </div>
         </div>
     );

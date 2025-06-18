@@ -8,6 +8,30 @@
     will-change: transform;
 }
 
+.holo-card::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96c93d);
+    background-size: 400% 400%;
+    z-index: -1;
+    filter: blur(15px);
+    opacity: 0.5;
+    animation: gradient-shadow 8s ease infinite;
+}
+
+@keyframes gradient-shadow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .holo-card:hover {
     transform: scale(1.03) rotateZ(-1deg);
 }
