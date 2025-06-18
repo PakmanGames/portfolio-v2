@@ -12,7 +12,7 @@ function Skills() {
                             <span className="text-2xl">
                                 <Image src="/skills/javascript-original.svg" alt="JavaScript" width={24} height={24} />
                             </span>
-                            <span className="text-lg">JavaScript</span>
+                            <span className="all-[unset] text-lg">JavaScript</span>
                         </div>
                     </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
@@ -39,12 +39,14 @@ function Skills() {
                         </span>
                         <span className="text-lg">Java</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/python-original.svg" alt="Python" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">Python</span>
-                    </div>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/python-original.svg" alt="Python" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">Python</span>
+                        </div>
+                    </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">
                             <Image src="/skills/ruby-original.svg" alt="Ruby" width={24} height={24} />
@@ -87,18 +89,22 @@ function Skills() {
             <div className="max-w-4xl flex flex-col gap-10">
                 <div className="text-center text-3xl">Frameworks</div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-2 z-10">
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/react-original.svg" alt="React" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">React</span>  
-                    </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/nextjs-original.svg" alt="Next.js" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">Next.js</span>
-                    </div>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/react-original.svg" alt="React" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">React</span>  
+                        </div>
+                    </HoloCard>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/nextjs-original.svg" alt="Next.js" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">Next.js</span>
+                        </div>
+                    </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">
                             <Image src="/skills/tailwindcss-original.svg" alt="Tailwind CSS" width={24} height={24} />
@@ -129,18 +135,22 @@ function Skills() {
             <div className="w-full max-w-4xl flex flex-col gap-10">
                 <div className="text-center text-3xl">Technologies</div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 z-10">
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/git-original.svg" alt="Git" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">Git</span>
-                    </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/github-original.svg" alt="GitHub" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">GitHub</span>
-                    </div>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/git-original.svg" alt="Git" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">Git</span>
+                        </div>
+                    </HoloCard>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/github-original.svg" alt="GitHub" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">GitHub</span>
+                        </div>
+                    </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">
                             <Image src="/skills/apache-original.svg" alt="Apache Maven" width={24} height={24} />
@@ -159,12 +169,14 @@ function Skills() {
                         </span>
                         <span className="text-lg">MongoDB</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
-                        <span className="text-2xl">
-                            <Image src="/skills/nodejs-original-wordmark.svg" alt="Node.js" width={24} height={24} />
-                        </span>
-                        <span className="text-lg">Node.js</span>
-                    </div>
+                    <HoloCard>
+                        <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                            <span className="text-2xl">
+                                <Image src="/skills/nodejs-original-wordmark.svg" alt="Node.js" width={24} height={24} />
+                            </span>
+                            <span className="text-lg">Node.js</span>
+                        </div>
+                    </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
                         <span className="text-2xl">
                             <Image src="/skills/mysql-original.svg" alt="MySQL" width={24} height={24} />

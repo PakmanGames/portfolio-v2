@@ -1,7 +1,7 @@
 .holo-card {
     position: relative;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 0.6rem;
     background: #222;
     box-shadow: 0 4px 24px rgba(0,0,0,0.2);
     transition: transform 0.2s;
