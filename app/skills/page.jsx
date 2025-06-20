@@ -15,25 +15,25 @@ function Skills() {
                             <span className="all-[unset] text-lg">JavaScript</span>
                         </div>
                     </HoloCard>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/typescript-original.svg" alt="TypeScript" width={24} height={24} />
                         </span>
                         <span className="text-lg">TypeScript</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/html5-original.svg" alt="HTML" width={24} height={24} />
                         </span>
                         <span className="text-lg">HTML</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/css3-original.svg" alt="CSS" width={24} height={24} />
                         </span>
                         <span className="text-lg">CSS</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/java-original.svg" alt="Java" width={24} height={24} />
                         </span>
@@ -47,37 +47,37 @@ function Skills() {
                             <span className="text-lg">Python</span>
                         </div>
                     </HoloCard>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/ruby-original.svg" alt="Ruby" width={24} height={24} />
                         </span>
                         <span className="text-lg">Ruby</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/c-original.svg" alt="C" width={24} height={24} />
                         </span>
                         <span className="text-lg">C</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/bash-original.svg" alt="Bash" width={24} height={24} />
                         </span>
                         <span className="text-lg">Bash</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/verilog-original.svg" alt="Verilog" width={24} height={24} />
                         </span>
                         <span className="text-lg">Verilog</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/azuresqldatabase-original.svg" alt="SQL" width={24} height={24} />
                         </span>
                         <span className="text-lg">SQL</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/matlab-original.svg" alt="MATLAB" width={24} height={24} />
                         </span>
@@ -94,7 +94,7 @@ function Skills() {
                             <span className="text-2xl">
                                 <Image src="/skills/react-original.svg" alt="React" width={24} height={24} />
                             </span>
-                            <span className="text-lg">React</span>  
+                            <span className="text-lg">React</span>
                         </div>
                     </HoloCard>
                     <HoloCard>
@@ -105,25 +105,25 @@ function Skills() {
                             <span className="text-lg">Next.js</span>
                         </div>
                     </HoloCard>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/tailwindcss-original.svg" alt="Tailwind CSS" width={24} height={24} />
                         </span>
                         <span className="text-lg">Tailwind CSS</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/express-original.svg" alt="Express.js" width={24} height={24} />
                         </span>
                         <span className="text-lg">Express.js</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/bootstrap-original.svg" alt="Bootstrap" width={24} height={24} />
                         </span>
                         <span className="text-lg">Bootstrap</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/spring-original.svg" alt="Spring Boot" width={24} height={24} />
                         </span>
@@ -151,19 +151,19 @@ function Skills() {
                             <span className="text-lg">GitHub</span>
                         </div>
                     </HoloCard>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/apache-original.svg" alt="Apache Maven" width={24} height={24} />
                         </span>
                         <span className="text-lg">Apache Maven</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/linux-original.svg" alt="Linux" width={24} height={24} />
                         </span>
                         <span className="text-lg">Linux</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/mongodb-original.svg" alt="MongoDB" width={24} height={24} />
                         </span>
@@ -177,13 +177,13 @@ function Skills() {
                             <span className="text-lg">Node.js</span>
                         </div>
                     </HoloCard>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/mysql-original.svg" alt="MySQL" width={24} height={24} />
                         </span>
                         <span className="text-lg">MySQL</span>
                     </div>
-                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px]">
+                    <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
                         <span className="text-2xl">
                             <Image src="/skills/postgresql-original.svg" alt="PostgreSQL" width={24} height={24} />
                         </span>
@@ -196,4 +196,4 @@ function Skills() {
     );
 }
 
-export default Skills
+export default Skills;
