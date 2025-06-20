@@ -37,7 +37,7 @@ function Navbar() {
     ]
 
     return (
-        <div className='bg-black flex justify-between items-center px-5 py-4 h-24 z-50'>
+        <div className='bg-gradient-to-r from-gray-900 via-black to-gray-900 backdrop-blur-sm border-b border-gray-800/50 flex justify-between items-center px-5 py-4 h-20 z-50 shadow-xl'>
             <Navlogo setNavbar={setNavbar}/>
 
             <MobileLinks routes={routes} navbar={navbar} setNavbar={setNavbar}/>

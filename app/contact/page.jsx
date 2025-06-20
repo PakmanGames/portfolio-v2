@@ -32,7 +32,7 @@ function Contact() {
     ];
 
     return (
-        <div className="flex flex-col justify-center items-center grow text-center px-4">
+        <div className="flex flex-col justify-center items-center grow text-center px-4 py-12">
             <div className="max-w-4xl w-full">
                 {/* Header */}
                 <div className="mb-12">
