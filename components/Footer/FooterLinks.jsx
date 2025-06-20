@@ -11,7 +11,7 @@ function FooterLinks() {
     const links = [
         {
             imageSource: Mail,
-            href: "mailto:im.andy.pak@gmail.com",
+            href: "mailto:paka4@mcmaster.ca",
             altText: "Send Mail",
             opacity: "opacity-50",
             size: "w-7 w-7",
