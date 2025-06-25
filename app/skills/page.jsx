@@ -12,7 +12,7 @@ function Skills() {
                             <span className="text-2xl">
                                 <Image src="/skills/javascript-original.svg" alt="JavaScript" width={24} height={24} />
                             </span>
-                            <span className="all-[unset] text-lg">JavaScript</span>
+                            <span className="text-lg">JavaScript</span>
                         </div>
                     </HoloCard>
                     <div className="flex items-center gap-3 bg-theme-not-white rounded-lg px-6 py-3 min-w-[100px] transition-transform duration-300 hover:scale-[1.03] hover:rotate-[1.5deg]">
