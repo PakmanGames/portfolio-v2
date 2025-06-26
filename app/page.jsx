@@ -15,7 +15,7 @@ function Page() {
   ]
 
   return (
-    <div className="flex grow justify-center items-center">
+    <div className="flex grow justify-center items-center md:my-24">
       <div className="flex justify-center items-center flex-wrap border-solid rounded-2xl border-8 border-blue-900 p-11 gap-10 m-10 bg-slate-100 z-20">
         <div className="border-solid rounded-2xl border-8 border-black shadow-2xl transform transition-all duration-500 motion-safe:hover:scale-105">
           <Image src={gradPhoto} alt="Picture of Andy Pak" className="w-72 h-auto rounded-lg"></Image>
