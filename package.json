@@ -1,44 +1,44 @@
 {
-    "name": "next-portfolio",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^6.6.0",
-        "@fortawesome/free-brands-svg-icons": "^6.6.0",
-        "@fortawesome/free-solid-svg-icons": "^6.6.0",
-        "@fortawesome/react-fontawesome": "^0.2.2",
-        "@radix-ui/react-slot": "^1.1.1",
-        "@tsparticles/react": "^3.0.0",
-        "@tsparticles/slim": "^3.7.1",
-        "@vercel/analytics": "^1.5.0",
-        "brace-expansion": ">=2.0.2",
-        "class-variance-authority": "^0.7.1",
-        "clsx": "^2.1.1",
-        "lucide-react": "^0.469.0",
-        "react": "^19.1.0",
-        "react-dom": "^19.1.0",
-        "react-responsive": "^10.0.0",
-        "react-simple-typewriter": "^5.0.1",
-        "tailwind-merge": "^2.6.0",
-        "tailwindcss-animate": "^1.0.7"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.27.4",
-        "@babel/preset-env": "^7.27.2",
-        "@tailwindcss/postcss": "^4.1.10",
-        "eslint": "^8",
-        "eslint-config-next": "14.2.26",
-        "next": "^15.4.7",
-        "postcss": "^8",
-        "tailwindcss": "^4.1.10"
-    },
-    "overrides": {
-        "nanoid": "^3.3.8"
-    }
+  "name": "next-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
+    "@vercel/analytics": "^1.5.0",
+    "brace-expansion": ">=2.0.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-responsive": "^10.0.0",
+    "react-simple-typewriter": "^5.0.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@tailwindcss/postcss": "^4.1.10",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.3",
+    "next": "^15.4.7",
+    "postcss": "^8",
+    "tailwindcss": "^4.1.10"
+  },
+  "overrides": {
+    "nanoid": "^3.3.8"
+  }
 }
