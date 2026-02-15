@@ -144,4 +144,12 @@ export const projects = [
       "🏆 Winner at Hack Western 12, recent cloud outages highlighted how a single failure can disrupt millions globally. Continuum is an AI-powered dashboard that helps developers quickly detect and manage incidents, ensuring uptime.",
     learnMore: "https://devpost.com/software/continuum-inta1o",
   },
+  {
+    id: 21,
+    title: "Rain Maker",
+    image: "/images/rainmaker.png",
+    description:
+      "🏆 Winner at uOttaHack 8, a rogue-like game where you speedrun building cloud infrastructure for impatient enterprise clients, infrastructure as clouds (IaC) to make it rain.",
+    learnMore: "https://devpost.com/software/rain-maker",
+  },
 ];

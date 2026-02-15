@@ -55,7 +55,7 @@ function Page() {
             </div>
             <div className="text-base flex gap-2 items-center justify-center">
               <FontAwesomeIcon icon={faTrophy} className="text-yellow-500 text-lg" />
-              <div>{`I'm a 5x Hackathon Winner`}</div>
+              <div>{`I'm a 6x Hackathon Winner`}</div>
             </div>
             <div className="text-base flex gap-2 items-center justify-center">
               Check out some of my{" "}
