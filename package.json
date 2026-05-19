@@ -17,7 +17,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.7.1",
     "@vercel/analytics": "^1.6.1",
-    "brace-expansion": ">=2.0.3",
+    "brace-expansion": ">=5.0.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.469.0",
@@ -47,7 +47,7 @@
       "minimatch": ">=9.0.7",
       "picomatch": ">=4.0.4",
       "ajv": ">=6.14.0",
-      "brace-expansion": ">=2.0.3",
+      "brace-expansion": ">=5.0.6",
       "postcss": ">=8.5.10",
       "fast-uri": ">=3.1.2",
       "@babel/plugin-transform-modules-systemjs": ">=7.29.4"
